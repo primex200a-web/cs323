@@ -1,0 +1,9 @@
+name = "cs323"
+compatibility_date = "2025-10-21"
+
+[assets]
+directory = "./public"
+
+# wrangler.toml (wrangler v3.88.0^)
+[observability.logs]
+enabled = true
