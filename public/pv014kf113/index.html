@@ -1,0 +1,2595 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>[AF-BP03] PV - 01</title>
+  <meta name="robots" content="index, follow">
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+  <meta name="description" content="Burn Peak">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="[AF-BP03] PV - 01">
+  <style type="text/css" media="all">
+    :root {
+      --white: #ffffff
+    }
+
+    .a-cloned .a-c-cont {
+      width: 100%
+    }
+
+    html {
+      scroll-behavior: smooth
+    }
+
+    body {
+      font-family: Roboto, sans-serif;
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden
+    }
+
+    *,
+    ::after,
+    ::before,
+    body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box
+    }
+
+    .ql-align-left {
+      text-align: left
+    }
+
+    .ql-align-center {
+      text-align: center
+    }
+
+    .ql-align-right {
+      text-align: right
+    }
+
+    .ql-align-justify {
+      text-align: justify
+    }
+
+    .pcl-viewers {
+      display: flex;
+      color: RGBA(255, 255, 255, .64);
+      font-size: 14px;
+      justify-content: center;
+      align-items: center;
+      font-weight: 400 !important;
+      font-family: Roboto
+    }
+
+    .texto {
+      color: RGBA(255, 255, 255, .64);
+      font-weight: 400 !important;
+      font-family: Roboto
+    }
+
+    .atomicat-interactive-quiz-progress {
+      margin: 20px auto;
+      padding: 0;
+      max-width: 28rem;
+      height: 10px;
+      overflow: hidden;
+      position: relative;
+      border-radius: 1rem
+    }
+
+    .atomicat-interactive-quiz-progress.atomicat-margin-top-zero {
+      margin-top: 0
+    }
+
+    .a-txt-extra {
+      padding: 1rem;
+      border-radius: .375rem;
+      line-height: 1.4;
+      font-size: 16px;
+      font-weight: 400
+    }
+
+    .a-txt-timer {
+      line-height: 1.25;
+      text-align: center;
+      padding-left: 1.25rem;
+      padding-right: 1.25rem
+    }
+
+    .a-txt-extra,
+    .a-txt-extra.a-danger {
+      color: rgb(185 28 28);
+      background-color: rgb(254 226 226)
+    }
+
+    .a-txt-extra.a-danger.a-highlight {
+      color: rgb(254 242 242);
+      background-color: rgb(220 38 38)
+    }
+
+    .a-txt-extra.a-info {
+      color: rgb(29 78 216);
+      background-color: rgb(219 234 254)
+    }
+
+    .a-txt-extra.a-info.a-highlight {
+      color: rgb(239 246 255);
+      background-color: rgb(37 99 235)
+    }
+
+    .a-txt-extra.a-success {
+      color: rgb(21 128 61);
+      background-color: rgb(220 252 231)
+    }
+
+    .a-txt-extra.a-success.a-highlight {
+      color: rgb(240 253 244);
+      background-color: rgb(22 163 74)
+    }
+
+    .a-txt-extra.a-warning {
+      color: rgb(161 98 7);
+      background-color: rgb(254 249 195)
+    }
+
+    .a-txt-extra.a-warning.a-highlight {
+      color: rgb(66 32 6);
+      background-color: rgb(250 204 21)
+    }
+
+    .a-txt-extra.a-light {
+      color: rgb(63 63 70);
+      background-color: rgb(244 244 245)
+    }
+
+    .a-txt-extra.a-light.a-highlight {
+      color: rgb(250 250 250);
+      background-color: rgb(82 82 91)
+    }
+
+    button {
+      border: none;
+      outline: 0;
+      background: 0 0;
+      font-family: "Space Grotesk", sans-serif;
+      cursor: pointer
+    }
+
+    .atomicat-interactive-quiz-bar-bg {
+      opacity: .1;
+      width: 100%
+    }
+
+    .atomicat-interactive-quiz-bar,
+    .atomicat-interactive-quiz-bar-bg {
+      height: 100%;
+      background: var(--a-g-theme-color, #6495ed);
+      transition-duration: .7s;
+      position: absolute;
+      top: 0;
+      left: 0
+    }
+
+    a {
+      color: inherit;
+      text-decoration: inherit
+    }
+
+    .atomi-h1 {
+      font-size: 36px
+    }
+
+    .atomi-h2 {
+      font-size: 30px
+    }
+
+    .atomi-h3 {
+      font-size: 24px
+    }
+
+    .atomi-h4 {
+      font-size: 20px
+    }
+
+    .atomi-h5 {
+      font-size: 18px
+    }
+
+    .atomi-h6 {
+      font-size: 16px
+    }
+
+    h1 {
+      font-size: 2em
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-weight: inherit
+    }
+
+    .a-g-m-t,
+    [class*=atomicat-modal-trigger] {
+      cursor: pointer
+    }
+
+    .atomicat-cursor-pointer {
+      cursor: pointer
+    }
+
+    .a-o-cont.atomicat-unfold,
+    .atomicat-unfold {
+      overflow: hidden;
+      height: 200px;
+      align-items: start;
+      position: relative;
+      transition: height 4s ease-in-out
+    }
+
+    .a-o-cont.atomicat-unfold-transition {
+      transition: height .5s ease-in-out
+    }
+
+    .a-b-cont {
+      word-wrap: break-word
+    }
+
+    .atomicat-unfold-button {
+      cursor: pointer;
+      display: block;
+      position: relative;
+      z-index: 1;
+      background: 0 0;
+      border: none;
+      padding: 10px;
+      text-decoration: underline
+    }
+
+    .atomicat-unfold::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(white));
+      background: linear-gradient(rgba(255, 255, 255, 0), #fff);
+      transition: background .5s ease-in-out;
+      z-index: 1;
+      height: 100%
+    }
+
+    .atomicat-ribbon-container {
+      --text: 'MOST POPULAR';
+      --first-color: #62baea;
+      --second-color: #4a98bf;
+      position: relative
+    }
+
+    .atomicat-ribbon-container .atomicat-ribbon {
+      position: absolute;
+      top: -10px;
+      width: 150px;
+      height: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9;
+      overflow: hidden
+    }
+
+    .a-b-o-cont.atomicat-infinite-entrance-animation,
+    .a-e-cont.atomicat-infinite-entrance-animation {
+      animation-iteration-count: infinite
+    }
+
+    .a-b-o-cont {
+      width: 100%;
+      margin: 0 auto;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      max-width: 100%;
+      position: relative
+    }
+
+    .atomicat-ribbon-top-left {
+      left: -10px
+    }
+
+    .atomicat-ribbon-top-left::before {
+      transform: rotate(-45deg) translateY(-20px)
+    }
+
+    .atomicat-ribbon-top-left::after {
+      left: 0
+    }
+
+    .atomicat-ribbon-top-right {
+      right: -10px
+    }
+
+    .atomicat-ribbon-top-right::before {
+      transform: rotate(45deg) translateY(-20px)
+    }
+
+    .atomicat-ribbon-top-right::after {
+      right: 0
+    }
+
+    .atomicat-ribbon-bottom-left {
+      left: -10px;
+      bottom: -10px
+    }
+
+    .atomicat-ribbon-bottom-left::before {
+      transform: rotate(45deg) translateY(-20px)
+    }
+
+    .atomicat-ribbon-bottom-left::after {
+      left: 0
+    }
+
+    .atomicat-ribbon-bottom-right {
+      right: -10px;
+      bottom: -10px
+    }
+
+    .atomicat-ribbon-bottom-right::before {
+      transform: rotate(-45deg) translateY(-20px)
+    }
+
+    .atomicat-ribbon-bottom-right::after {
+      right: 0
+    }
+
+    .atomicat-ribbon-container .atomicat-ribbon::before {
+      content: var(--text);
+      position: absolute;
+      width: 150%;
+      height: 40px;
+      background: var(--first-color);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+      font-weight: 600;
+      color: #fff;
+      letter-spacing: .1em;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, .1)
+    }
+
+    .atomicat-ribbon-container .atomicat-ribbon::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      width: 10px;
+      height: 10px;
+      background: var(--second-color);
+      z-index: -1;
+      box-shadow: 140px -140px var(--second-color)
+    }
+
+    .atomicat-marquee {
+      position: relative;
+      display: flex
+    }
+
+    .atomicat-overflow-hidden {
+      overflow: hidden
+    }
+
+    .atomicat-marquee-content {
+      flex-shrink: 0;
+      display: flex;
+      justify-content: space-around;
+      min-width: 100%
+    }
+
+    .atomicat-enable-animation .atomicat-marquee-content {
+      animation: atomicat-marquee-animation 10s linear infinite
+    }
+
+    .atomicat-marquee-reverse .atomicat-marquee-content {
+      animation-direction: reverse
+    }
+
+    .atomicat-marquee-alternate .atomicat-marquee-content {
+      animation-direction: alternate
+    }
+
+    .atomicat-marquee-pause:hover .atomicat-marquee-content {
+      animation-play-state: paused
+    }
+
+    @keyframes atomicat-marquee-animation {
+      from {
+        transform: translateX(0)
+      }
+
+      to {
+        transform: translateX(-100%)
+      }
+    }
+
+    .a-html-ele {
+      width: 18px;
+      height: 18px
+    }
+
+    .atomicat-page {
+      background-color: red
+    }
+
+    .a-g-s-h,
+    .atomicat-heading-title {
+      color: #000;
+      font-family: Poppins, sans-serif
+    }
+
+    .a-g-s-t,
+    .atomicat-heading-title>span,
+    .atomicat-text,
+    .atomicat-text>span {
+      color: #000;
+      font-family: Roboto, sans-serif
+    }
+
+    .a-e-cont.a-btn>.a-btn,
+    .a-g-s-b {
+      color: #fff;
+      font-family: Montserrat, sans-serif;
+      background: var(--a-g-theme-color, #6495ed)
+    }
+
+    .atomicat-fullheight {
+      height: 100%
+    }
+
+    .atomicat-disable-selection {
+      user-select: none;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      cursor: default
+    }
+
+    .atomicat-hidden {
+      display: none
+    }
+
+    .a-r {
+      position: relative
+    }
+
+    .a-r .atomicat-hidden,
+    .atomicat-hidden.a-i-e-cont,
+    .atomicat-hidden.a-r {
+      display: none
+    }
+
+    .atomicat-chosen-option {
+      background: #ff0
+    }
+
+    .atomicat-fixed {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 20
+    }
+
+    .flex-row {
+      display: flex
+    }
+
+    .flex-row-reverse {
+      flex-direction: row-reverse
+    }
+
+    .flex-column-reverse {
+      flex-direction: column-reverse
+    }
+
+    .flex-column {
+      display: flex;
+      flex-direction: column
+    }
+
+    .flex-row-all {
+      display: flex;
+      justify-content: center;
+      align-items: center
+    }
+
+    .flex-column-all {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center
+    }
+
+    .flex-row-reverse {
+      flex-direction: row-reverse
+    }
+
+    .flex-column-reverse {
+      flex-direction: column-reverse
+    }
+
+    .flex-row-between {
+      display: flex;
+      justify-content: space-between;
+      align-items: center
+    }
+
+    .gap-1 {
+      gap: 1rem
+    }
+
+    .flex-align-center {
+      align-items: center
+    }
+
+    .flex-row-center {
+      display: flex;
+      justify-content: center;
+      align-items: center
+    }
+
+    .flex-row-align-center {
+      display: flex;
+      align-items: center
+    }
+
+    .a-c-cont {
+      max-width: 100%;
+      min-width: 0
+    }
+
+    .atomicat-custom-embed iframe {
+      max-width: 100%;
+      width: 100%;
+      margin: 0;
+      line-height: 1;
+      border: none
+    }
+
+    .a-c-f-w {
+      width: 100%
+    }
+
+    .a-e-cont {
+      max-width: 100%
+    }
+
+    .atomicat-transform-element {
+      transform: perspective(var(--atomicat-transform-perspective, 0)) rotate(var(--atomicat-transform-rotate-z, 0)) rotateX(var(--atomicat-transform-rotate-x, 0)) rotateY(var(--atomicat-transform-rotate-y, 0)) translate(var(--atomicat-transform-translate, 0)) translateX(var(--atomicat-transform-translate-x, 0)) translateY(var(--atomicat-transform-translate-y, 0)) scaleX(calc(var(--atomicat-transform-flip-x, 1)* var(--atomicat-transform-scale-x, var(--atomicat-transform-scale, 1)))) scaleY(calc(var(--atomicat-transform-flip-y, 1)* var(--atomicat-transform-scale-y, var(--atomicat-transform-scale, 1)))) skewX(var(--atomicat-transform-skew-x, 0)) skewY(var(--atomicat-transform-skew-y, 0));
+      transform-origin: var(--atomicat-transform-origin-y) var(--atomicat-transform-origin-x);
+      transition: background .3s, border .3s, border-radius .3s, box-shadow .3s, transform var(--atomicat-transform-transition-duration, .4s)
+    }
+
+    .a-e-cont.atomicat-googlemaps {
+      overflow: hidden
+    }
+
+    .a-flex {
+      display: flex
+    }
+
+    .atomicat-emoji {
+      width: 65px
+    }
+
+    .atomica-emoji-unicode {
+      font-size: 65px
+    }
+
+    .a-f-c {
+      display: flex;
+      flex-direction: column
+    }
+
+    .a-flex-start {
+      align-self: flex-start
+    }
+
+    .a-flex-end {
+      align-self: flex-end
+    }
+
+    .a-flex-center {
+      align-self: center
+    }
+
+    .a-flex-wrapper {
+      display: flex;
+      flex-direction: column;
+      width: 100%
+    }
+
+    .a-o-cont {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      max-width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center
+    }
+
+    .a-o-cont {
+      height: 100%;
+      margin: 0 auto
+    }
+
+    .a-acc-cont {
+      position: relative
+    }
+
+    .a-i-e-cont {
+      transition: height .5s ease-in-out, background .5s ease-in-out
+    }
+
+    .a-o-cont.a-cont-b>.a-cont {
+      max-width: 1140px
+    }
+
+    .a-o-cont.a-cont-f-w>.a-cont {
+      max-width: 100%
+    }
+
+    .a-o-cont .a-cont {
+      flex-direction: column
+    }
+
+    .a-b-cont>.a-o-cont {
+      margin: 0 auto
+    }
+
+    .atomicat-divider-flex {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 15px 0;
+      gap: .5rem
+    }
+
+    .atomicat-divider-flex .atomicat-content {
+      border-bottom: 2px solid #000;
+      width: 50%
+    }
+
+    .atomicat-border-bottom {
+      border-bottom: 1.5px solid #e6e8ea
+    }
+
+    .atomicat-border-top {
+      border-top: 1.5px solid #e6e8ea
+    }
+
+    .a-cont {
+      display: flex;
+      margin: 0 auto;
+      font-weight: 600;
+      min-height: 100%;
+      width: 100%
+    }
+
+    .atomicat-hidden-tablet {
+      display: block
+    }
+
+    .atomicat-hidden-mobile {
+      display: block
+    }
+
+    .atomicat-hidden-desktop {
+      display: none
+    }
+
+    @media screen and (max-width:1024px) {
+      .atomicat-hidden-mobile {
+        display: block
+      }
+
+      .atomicat-hidden-desktop {
+        display: block
+      }
+
+      .atomicat-hidden-tablet {
+        display: none
+      }
+    }
+
+    @media screen and (max-width:480px) {
+      .a-o-cont.a-cont-b>.a-cont {
+        grid-template-columns: repeat(1, 1fr)
+      }
+
+      .atomicat-hidden-tablet {
+        display: block
+      }
+
+      .atomicat-hidden-desktop {
+        display: block
+      }
+
+      .atomicat-hidden-mobile {
+        display: none
+      }
+
+      .a-cont {
+        flex-wrap: wrap
+      }
+    }
+
+    @media (min-width:768px) {
+      .atomicat-column[data-col="10"] {
+        width: 10%
+      }
+
+      .atomicat-column[data-col="11"] {
+        width: 11.111%
+      }
+
+      .atomicat-column[data-col="12"] {
+        width: 12.5%
+      }
+
+      .atomicat-column[data-col="14"] {
+        width: 14.285%
+      }
+
+      .atomicat-column[data-col="16"] {
+        width: 16.666%
+      }
+
+      .atomicat-column[data-col="20"] {
+        width: 20%
+      }
+
+      .atomicat-column[data-col="25"] {
+        width: 25%
+      }
+
+      .atomicat-column[data-col="30"] {
+        width: 30%
+      }
+
+      .atomicat-column[data-col="33"] {
+        width: 33.333%
+      }
+
+      .atomicat-column[data-col="40"] {
+        width: 40%
+      }
+
+      .atomicat-column[data-col="50"] {
+        width: 50%
+      }
+
+      .atomicat-column[data-col="60"] {
+        width: 60%
+      }
+
+      .atomicat-column[data-col="66"] {
+        width: 66.666%
+      }
+
+      .atomicat-column[data-col="70"] {
+        width: 70%
+      }
+
+      .atomicat-column[data-col="75"] {
+        width: 75%
+      }
+
+      .atomicat-column[data-col="80"] {
+        width: 80%
+      }
+
+      .atomicat-column[data-col="83"] {
+        width: 83.333%
+      }
+
+      .atomicat-column[data-col="90"] {
+        width: 90%
+      }
+
+      .atomicat-column[data-col="100"] {
+        width: 100%
+      }
+    }
+
+    .flexBox {
+      display: flex;
+      flex-direction: column;
+      gap: 8px
+    }
+
+    .a-b-a {
+      display: flex;
+      flex-direction: row-reverse;
+      gap: 5px;
+      justify-content: center;
+      align-items: center
+    }
+
+    .a-b-b {
+      display: flex;
+      flex-direction: row;
+      gap: 5px;
+      align-items: center;
+      justify-content: center
+    }
+
+    .a-e-cont>.a-btn,
+    .atomicat-marquee-content>.a-btn {
+      background: var(--a-g-theme-color, #6495ed);
+      padding: 12px;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 600;
+      transition: background-color .3s ease-in-out, color .3s ease-in-out;
+      word-break: break-word;
+      color: #fff;
+      border-radius: var(--a-g-round, 1rem);
+      align-self: center
+    }
+
+    .a-btn svg {
+      height: 14px
+    }
+
+    .a-ft {
+      text-align: center;
+      font-size: 20px;
+      color: #000;
+      word-break: break-all
+    }
+
+    .a-ft-i {
+      margin-top: calc(15px / 2)
+    }
+
+    .a-icon svg {
+      height: 24px
+    }
+
+    .a-icon .a-icon-wrap {
+      display: inline-block
+    }
+
+    .atomicat-tooltip-trigger:hover .atomicat-tooltip {
+      opacity: 1;
+      z-index: 1;
+      cursor: pointer
+    }
+
+    .a-c-cont .atomicat-tooltip-trigger {
+      overflow: visible;
+      position: relative;
+      cursor: pointer
+    }
+
+    .atomicat-tooltip-trigger:hover .atomicat-tooltip-top {
+      animation: atomicat-tooltip-topin .3s linear
+    }
+
+    .atomicat-tooltip-trigger:hover .atomicat-tooltip-right {
+      animation: atomicat-tooltip-rightin .3s linear
+    }
+
+    .atomicat-tooltip-trigger:hover .atomicat-tooltip-bottom {
+      animation: atomicat-tooltip-bottomin .3s linear
+    }
+
+    .atomicat-tooltip-trigger:hover .atomicat-tooltip-left {
+      animation: atomicat-tooltip-leftin .3s linear
+    }
+
+    .atomicat-tooltip {
+      width: 150px;
+      background-color: #555;
+      color: #fff;
+      animation-duration: .3s;
+      opacity: 0;
+      display: block;
+      color: #fff;
+      border-radius: 4px;
+      padding: 10px;
+      position: absolute;
+      z-index: -1;
+      line-height: 1.3;
+      cursor: pointer;
+      text-align: left
+    }
+
+    .atomicat-tooltip::after {
+      border-width: 5px;
+      content: "";
+      position: absolute;
+      border-style: solid
+    }
+
+    .atomicat-tooltip-top {
+      bottom: 100%;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+      margin: 0 auto 10px auto
+    }
+
+    .atomicat-tooltip-top::after {
+      top: 100%;
+      left: calc(50% - 5px);
+      border-top-color: #555;
+      margin-top: 0;
+      border-color: #000 transparent transparent transparent;
+      border-top-color: #555
+    }
+
+    .atomicat-tooltip-right {
+      top: 50%;
+      left: 100%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      -webkit-transition: all .3s ease-in-out;
+      transition: all .3s ease-in-out;
+      margin-left: 10px;
+      border-color: transparent #000 transparent transparent
+    }
+
+    .atomicat-tooltip-right::after {
+      top: calc(50% - 5px);
+      right: 100%;
+      border-color: transparent #000 transparent transparent;
+      border-right-color: #555
+    }
+
+    .atomicat-tooltip-bottom {
+      top: 100%;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+      margin: 10px auto 0 auto
+    }
+
+    .atomicat-tooltip-bottom::after {
+      left: calc(50% - 5px);
+      margin-top: 0;
+      bottom: 100%;
+      border-color: transparent transparent #000 transparent;
+      border-bottom-color: #555
+    }
+
+    .atomicat-tooltip-left {
+      top: 50%;
+      right: 100%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      margin-right: 10px
+    }
+
+    .atomicat-tooltip-left::after {
+      top: calc(50% - 5px);
+      left: 100%;
+      border-color: transparent transparent transparent #000;
+      border-left-color: #555
+    }
+
+    @keyframes atomicat-tooltip-rightin {
+      0% {
+        opacity: 0;
+        left: 105%
+      }
+
+      100% {
+        opacity: 1;
+        left: 100%
+      }
+    }
+
+    @keyframes atomicat-tooltip-leftin {
+      0% {
+        opacity: 0;
+        right: 105%
+      }
+
+      100% {
+        opacity: 1;
+        right: 100%
+      }
+    }
+
+    @keyframes atomicat-tooltip-topin {
+      0% {
+        opacity: 0;
+        bottom: 110%
+      }
+
+      100% {
+        opacity: 1;
+        bottom: 100%
+      }
+    }
+
+    @keyframes atomicat-tooltip-bottomin {
+      0% {
+        opacity: 0;
+        top: 110%
+      }
+
+      100% {
+        opacity: 1;
+        top: 100%
+      }
+    }
+
+    .a-video {
+      overflow: hidden
+    }
+
+    .a-video iframe {
+      height: 100%;
+      width: 100%
+    }
+
+    .a-v-o-c {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      overflow: hidden
+    }
+
+    .a-v-o {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 2;
+      transition: all .3s ease
+    }
+
+    .a-v-o:hover svg {
+      transform: scale(1.1)
+    }
+
+    .a-v-p-b {
+      width: 80px;
+      height: 80px
+    }
+
+    @media (max-width:768px) {
+      .a-v-p-b {
+        width: 60px;
+        height: 60px
+      }
+    }
+
+    .atomicat-image {
+      overflow: hidden;
+      text-align: center
+    }
+
+    .atomicat-image img {
+      display: inline-block;
+      max-width: 100%;
+      height: auto;
+      vertical-align: middle
+    }
+
+    .atomicat-text * {
+      word-break: break-word
+    }
+
+    .atomicat-text ul {
+      padding-left: revert
+    }
+
+    .atomicat-text {
+      white-space: pre-line;
+      color: var(--a-g-content-color)
+    }
+
+    .atomicat-text :is(h1, h2, h3, h4, h5, h6) {
+      color: var(--a-g-title-color)
+    }
+
+    .atomicat-text p {
+      font-size: 16px;
+      font-weight: 400
+    }
+
+    .atomicat-heading-title {
+      white-space: pre-line
+    }
+
+    .atomicat-heading-title h1 {
+      font-size: 48px;
+      font-weight: 700
+    }
+
+    .atomicat-heading-title h2 {
+      font-size: 36px;
+      font-weight: 600
+    }
+
+    .atomicat-heading-title h3 {
+      font-size: 24px;
+      font-weight: 500
+    }
+
+    .a-html .a-i-e-cont iframe {
+      width: 100%;
+      height: 100vh;
+      border: none
+    }
+
+    .atomicat-delay {
+      display: none
+    }
+  </style>
+  <style>
+    .a-b-cont {
+      overflow: hidden
+    }
+  </style>
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <link rel="preload" as="font" href="https://fonts.gstatic.com/s/poppins/v24/pxiEyp8kv8JHgFVrJJfecg.woff2"
+    crossorigin="">
+  <link rel="preload" as="font"
+    href="https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2" crossorigin="">
+  <link rel="preload" as="font" href="https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2"
+    crossorigin="">
+  <style>
+    @font-face {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');
+      unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+    }
+
+    @font-face {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2) format('woff2');
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+    }
+
+    @font-face {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2) format('woff2');
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB
+    }
+
+    @font-face {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
+      unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    @font-face {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 600;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');
+      unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+    }
+
+    @font-face {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 600;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2) format('woff2');
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+    }
+
+    @font-face {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 600;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2) format('woff2');
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB
+    }
+
+    @font-face {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 600;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
+      unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 600;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    @font-face {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');
+      unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+    }
+
+    @font-face {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2) format('woff2');
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+    }
+
+    @font-face {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2) format('woff2');
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB
+    }
+
+    @font-face {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
+      unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    @font-face {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/poppins/v24/pxiEyp8kv8JHgFVrJJbecmNE.woff2) format('woff2');
+      unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09
+    }
+
+    @font-face {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/poppins/v24/pxiEyp8kv8JHgFVrJJnecmNE.woff2) format('woff2');
+      unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/poppins/v24/pxiEyp8kv8JHgFVrJJfecg.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    @font-face {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-stretch: 100%;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3GUBGEe.woff2) format('woff2');
+      unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+    }
+
+    @font-face {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-stretch: 100%;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3iUBGEe.woff2) format('woff2');
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+    }
+
+    @font-face {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-stretch: 100%;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3CUBGEe.woff2) format('woff2');
+      unicode-range: U+1F00-1FFF
+    }
+
+    @font-face {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-stretch: 100%;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3-UBGEe.woff2) format('woff2');
+      unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF
+    }
+
+    @font-face {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-stretch: 100%;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMawCUBGEe.woff2) format('woff2');
+      unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-208E, U+2090-209C, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF
+    }
+
+    @font-face {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-stretch: 100%;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMaxKUBGEe.woff2) format('woff2');
+      unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA89, U+1FA8F-1FAC6, U+1FACE-1FADC, U+1FADF-1FAE9, U+1FAF0-1FAF8, U+1FB00-1FBFF
+    }
+
+    @font-face {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-stretch: 100%;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3OUBGEe.woff2) format('woff2');
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB
+    }
+
+    @font-face {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-stretch: 100%;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3KUBGEe.woff2) format('woff2');
+      unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-stretch: 100%;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    @font-face {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 700;
+      font-stretch: 100%;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3GUBGEe.woff2) format('woff2');
+      unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+    }
+
+    @font-face {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 700;
+      font-stretch: 100%;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3iUBGEe.woff2) format('woff2');
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+    }
+
+    @font-face {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 700;
+      font-stretch: 100%;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3CUBGEe.woff2) format('woff2');
+      unicode-range: U+1F00-1FFF
+    }
+
+    @font-face {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 700;
+      font-stretch: 100%;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3-UBGEe.woff2) format('woff2');
+      unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF
+    }
+
+    @font-face {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 700;
+      font-stretch: 100%;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMawCUBGEe.woff2) format('woff2');
+      unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-208E, U+2090-209C, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF
+    }
+
+    @font-face {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 700;
+      font-stretch: 100%;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMaxKUBGEe.woff2) format('woff2');
+      unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA89, U+1FA8F-1FAC6, U+1FACE-1FADC, U+1FADF-1FAE9, U+1FAF0-1FAF8, U+1FB00-1FBFF
+    }
+
+    @font-face {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 700;
+      font-stretch: 100%;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3OUBGEe.woff2) format('woff2');
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB
+    }
+
+    @font-face {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 700;
+      font-stretch: 100%;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3KUBGEe.woff2) format('woff2');
+      unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+
+    @font-face {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 700;
+      font-stretch: 100%;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+  </style>
+  <meta name="referrer" content="no-referrer">
+</head>
+
+<body data-version="3.3" data-variant="hy5cys33g0h" data-page="_kxGSEHCdc7Sdh1RhthlQ" data-page-type="page">
+  <div class="a-b-cont">
+    <div class="a-b-o-cont a-s-d-3z0x8d atomicat-container-bb4a2ee">
+      <style>
+        .atomicat-container-bb4a2ee>.a-o-cont {
+          padding-top: 0;
+          padding-bottom: 50px
+        }
+
+        @media screen and (max-width:480px) {
+          .atomicat-container-bb4a2ee>.a-o-cont {
+            padding-right: 20px;
+            padding-left: 20px
+          }
+        }
+
+        .atomicat-container-bb4a2ee>.a-o-cont>.a-cont {
+          min-height: 100vh;
+          column-gap: 20px;
+          flex-direction: column;
+          row-gap: 20px;
+          max-width: 100%
+        }
+
+        .a-b-cont .atomicat-container-bb4a2ee.a-b-o-cont {
+          min-height: 100vh;
+          background: #0f0f0f;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center
+        }
+
+        .atomicat-container-bb4a2ee>.a-o-cont {
+          min-height: 100vh
+        }
+      </style>
+      <div class="a-cont-b a-s-d-fqnmew a-o-cont">
+        <div class="a-i-cont a-s-d-8ahegt a-cont">
+          <div class="a-b-o-cont atomicat-container-a3804b8"><!-- container - 2b85x6 -->
+            <style>
+              .atomicat-container-a3804b8>.a-o-cont {
+                padding-top: 15px;
+                padding-bottom: 10px
+              }
+
+              .atomicat-container-a3804b8>.a-o-cont>.a-cont {
+                align-items: center;
+                column-gap: 30px;
+                flex-direction: row;
+                justify-content: flex-start;
+                row-gap: 30px
+              }
+
+              @media screen and (max-width:480px) {
+                .atomicat-container-a3804b8>.a-o-cont>.a-cont {
+                  align-items: center;
+                  align-content: space-between;
+                  justify-content: center;
+                  flex-wrap: wrap
+                }
+              }
+
+              .a-b-cont .atomicat-container-a3804b8.a-b-o-cont {
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                width: 95%
+              }
+
+              @media screen and (max-width:480px) {
+                .a-b-cont .atomicat-container-a3804b8.a-b-o-cont {
+                  --atomicat-transform-origin-x: center;
+                  --atomicat-transform-origin-y: center;
+                  width: 100%
+                }
+              }
+            </style>
+            <div class="a-cont-f-w a-o-cont">
+              <div class="a-i-cont a-s-d-8y8df3 a-cont">
+                <div class="a-r a-c-cont a-c-cont-ae9d6af a-s-d-qp2bhd">
+                  <style>
+                    .a-icon-ae9d6af {
+                      color: rgba(255, 255, 255, .85)
+                    }
+
+                    .a-icon-ae9d6af .a-icon-wrap {
+                      color: rgba(255, 255, 255, .85);
+                      font-size: 25px
+                    }
+
+                    @media screen and (max-width:480px) {
+                      .a-icon-ae9d6af .a-icon-wrap {
+                        font-size: 20px
+                      }
+                    }
+
+                    .a-icon-ae9d6af svg {
+                      height: 25px
+                    }
+
+                    @media screen and (max-width:480px) {
+                      .a-icon-ae9d6af svg {
+                        height: 20px
+                      }
+                    }
+                  </style>
+                  <div class="a-icon-ae9d6af a-e-cont atomicat-icon a-r a-icon atomicat-element-container-ae9d6af">
+                    <!-- icon - k6mnvv -->
+                    <div class="a-icon-wrap"><svg aria-hidden="true" focusable="false" data-prefix="fas"
+                        data-icon="bars" class="fa-bars a-i-e-cont svg-inline--fa" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="currentColor"
+                          d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z">
+                        </path>
+                      </svg></div>
+                  </div>
+                </div>
+                <div class="a-c-cont a-c-f-w a-r a-c-cont-e9bd2e0">
+                  <style>
+                    .a-c-cont.a-c-cont-e9bd2e0 {
+                      width: 150px
+                    }
+
+                    @media screen and (max-width:480px) {
+                      .a-c-cont.a-c-cont-e9bd2e0 {
+                        width: 110px
+                      }
+                    }
+                  </style>
+                  <div class="a-e-cont atomicat-element-container-e9bd2e0 atomicat-image atomicat-image-e9bd2e0 a-r">
+                    <!-- image - czzrty --><img loading="eager" fetchpriority="high" decoding="async" width="993"
+                      height="234" src="./index_files/cXsgPM2961738.png" alt=""
+                      srcset="https://media.atomicatpages.net/u/pvssKzor8IOuLMwbKVKxTjD7dNI3/Pictures/cXsgPM2961738.png?quality=70#599709 993w,https://media.atomicatpages.net/u/pvssKzor8IOuLMwbKVKxTjD7dNI3/Pictures/cXsgPM2961738.png?width=300&amp;height=160&amp;quality=82#464471 300w,https://media.atomicatpages.net/u/pvssKzor8IOuLMwbKVKxTjD7dNI3/Pictures/cXsgPM2961738.png?width=768&amp;height=409&amp;quality=87#575348 768w"
+                      sizes="(max-width: 993px) 100vw, 993px"></div>
+                </div>
+                <div class="a-c-cont a-r a-c-cont-ee03d86">
+                  <style>
+                    .a-c-cont.a-c-cont-ee03d86 {
+                      width: 100%
+                    }
+
+                    @media screen and (max-width:480px) {
+                      .a-c-cont.a-c-cont-ee03d86 {
+                        width: 41%
+                      }
+                    }
+
+                    .a-icon-ee03d86 {
+                      text-align: right;
+                      color: rgba(255, 255, 255, .85)
+                    }
+
+                    .a-icon-ee03d86 .a-icon-wrap {
+                      color: rgba(255, 255, 255, .85);
+                      font-size: 25px;
+                      text-align: right
+                    }
+
+                    @media screen and (max-width:480px) {
+                      .a-icon-ee03d86 .a-icon-wrap {
+                        font-size: 20px
+                      }
+                    }
+
+                    .a-icon-ee03d86 svg {
+                      height: 25px;
+                      width: 100%
+                    }
+
+                    @media screen and (max-width:480px) {
+                      .a-icon-ee03d86 svg {
+                        height: 20px
+                      }
+                    }
+                  </style>
+                  <div class="atomicat-element-container-ee03d86 a-r a-icon atomicat-icon a-icon-ee03d86 a-e-cont">
+                    <!-- icon - u8rnoq -->
+                    <div class="a-icon-wrap"><svg aria-hidden="true" focusable="false" data-prefix="fas"
+                        data-icon="magnifying-glass" class="fa-magnifying-glass svg-inline--fa a-i-e-cont" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path fill="currentColor"
+                          d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z">
+                        </path>
+                      </svg></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="a-b-o-cont a-s-d-qtdz5g atomicat-container-124ba90"><!-- container - 45io9u -->
+            <style>
+              .atomicat-container-124ba90>.a-o-cont>.a-cont {
+                align-items: flex-start;
+                column-gap: 20px;
+                flex-direction: column;
+                justify-content: center;
+                row-gap: 20px
+              }
+
+              .a-b-cont .atomicat-container-124ba90.a-b-o-cont {
+                margin-top: 60px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                width: 80%
+              }
+
+              @media screen and (max-width:480px) {
+                .a-b-cont .atomicat-container-124ba90.a-b-o-cont {
+                  margin-top: 30px;
+                  width: 100%
+                }
+              }
+            </style>
+            <div class="a-cont-f-w a-o-cont">
+              <div class="a-cont a-i-cont">
+                <div class="a-r a-c-cont a-c-cont-de5de9b">
+                  <style>
+                    .a-c-cont-de5de9b {
+                      width: 100%
+                    }
+                  </style>
+                  <div
+                    class="a-e-cont a-r atomicat-video a-video-de5de9b a-u-3 atomicat-element-container-de5de9b a-video"
+                    data-hex="xTjD7dNI3"><!-- video - vu74gm -->
+                    <div style="aspect-ratio:1.77777">
+                      <vturb-smartplayer id="vid-690108ac66d9e593fcedd834" style="display: block; margin: 0 auto; width: 100%; "></vturb-smartplayer> <script type="text/javascript"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/36e8e890-091f-48d2-a9b6-f5e1cd23ec4f/players/690108ac66d9e593fcedd834/v4/player.js", s.async=!0,document.head.appendChild(s); </script>
+                    </div>
+                  </div>
+                </div>
+                <div class="a-c-cont-76be8a3 a-r a-c-cont a-s-d-03mdw2">
+                  <style>
+                    .a-e-cont.atomicat-heading-title-76be8a3 h1:hover {
+                      -webkit-text-fill-color: unset
+                    }
+
+                    .a-e-cont.atomicat-heading-title-76be8a3 h1 {
+                      color: #fbfafa;
+                      background-image: unset;
+                      font-family: Roboto, sans-serif;
+                      font-size: 27px
+                    }
+
+                    @media screen and (max-width:480px) {
+                      .a-e-cont.atomicat-heading-title-76be8a3 h1 {
+                        font-size: 22px;
+                        text-align: center;
+                        margin: 0 auto;
+                        padding: 0 15px;
+                      }
+                    }
+
+                    .a-c-cont-76be8a3>.a-e-cont {
+                      margin-top: 10px
+                    }
+                    
+                    @media screen and (max-width:480px) {
+                      .a-c-cont-76be8a3>.a-e-cont {
+                        margin-bottom: 20px;
+                      }
+                    }
+                  </style>
+                  <div
+                    class="a-e-cont atomicat-text-76be8a3 atomicat-heading-title a-u-2 a-r atomicat-heading-title-76be8a3 atomicat-element-container-76be8a3"
+                    data-hex="OuLMwbKVK"><!-- text - mart40 -->
+                    <h1>Watch live: how to make this bariatric gelatin at home</h1>
+                  </div>
+                </div>
+                <div class="a-s-d-esmovk a-c-cont atomicat-hidden-desktop a-c-cont-ed9c7a1 a-r">
+                  <style></style>
+                  <div
+                    class="atomicat-html a-e-cont a-html-ed9c7a1 a-s-d-g2lz2t a-html atomicat-element-container-ed9c7a1 a-r">
+                    <!-- html - 9eyc3u -->
+                    <div class="a-i-e-cont">
+                      <div class="pcl-viewers">
+                        <div class="usuarios">
+                          <div id="numberViewer">38</div>
+                        </div>
+                        <div class="texto">K people watching now</div>
+                      </div>
+                      <script>document.addEventListener('DOMContentLoaded', function () {
+                          function random(min, max) {
+                            return Math.floor(Math.random() * (max - min + 1) + min);
+                          }
+
+                          function countViewer(min, max, elementID) {
+                            var element = document.querySelector(elementID);
+                            var count = random(min, max);
+
+                            setInterval(function () {
+                              var variation = random(-5, 5);
+
+                              count += variation;
+                              if (count < min) {
+                                count = min;
+                              } else if (count > max) {
+                                count = max;
+                              }
+                              element.textContent = count;
+
+                            }, 2000); /*mude de quanto em quanto tempo mudará a quantidade de usuário aqui no 5000 (milissegundos = 5 segundos)*/
+                          }
+
+                          countViewer(45, 38, '#numberViewer'); /*mude o intervalo de pessoas assistindo aqui em 643 (mínimo) e 737 (máximo)*/
+                        });</script>
+                    </div>
+                  </div>
+                </div>
+                <div class="a-s-d-0ctafp atomicat-container-33bf822 a-b-o-cont"><!-- container - ora6wc -->
+                  <style>
+                    .atomicat-container-33bf822>.a-o-cont>.a-cont {
+                      align-items: center;
+                      column-gap: 20px;
+                      flex-direction: row;
+                      justify-content: space-around;
+                      row-gap: 20px;
+                      flex-wrap: wrap
+                    }
+
+                    .a-b-cont .atomicat-container-33bf822.a-b-o-cont {
+                      background-size: cover;
+                      background-repeat: no-repeat;
+                      background-position: center;
+                      width: 100%
+                    }
+
+                    @media screen and (max-width:480px) {
+                      .a-b-cont .atomicat-container-33bf822.a-b-o-cont {
+                        width: 100%
+                      }
+                    }
+                  </style>
+                  <div class="a-cont-f-w a-o-cont a-s-d-q8jww0">
+                    <div class="a-cont a-i-cont">
+                      <div class="a-b-o-cont atomicat-container-63888af"><!-- container - rkpgwt -->
+                        <style>
+                          .atomicat-container-63888af>.a-o-cont>.a-cont {
+                            align-items: center;
+                            align-content: flex-start;
+                            column-gap: 20px;
+                            flex-direction: row;
+                            justify-content: flex-start;
+                            row-gap: 20px
+                          }
+
+                          @media screen and (max-width:480px) {
+                            .atomicat-container-63888af>.a-o-cont>.a-cont {
+                              column-gap: 12px;
+                              justify-content: flex-start;
+                              row-gap: 12px;
+                              flex-wrap: nowrap;
+                              align-items: center;
+                              padding: 15px;
+                              display: flex;
+                              flex-direction: row;
+                            }
+                          }
+
+                          .a-b-cont .atomicat-container-63888af.a-b-o-cont {
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            width: 350px
+                          }
+
+                          @media screen and (max-width:480px) {
+                            .a-b-cont .atomicat-container-63888af.a-b-o-cont {
+                              width: 100%
+                            }
+                          }
+                        </style>
+                        <div class="a-cont-f-w a-s-d-q5ze4x a-o-cont">
+                          <div class="a-i-cont a-s-d-xvg6hq a-cont">
+                            <div class="a-c-cont-d7be7a3 a-s-d-ij77gm a-c-cont a-r a-c-f-w">
+                              <style>
+                                .a-c-cont-d7be7a3 {
+                                  align-self: flex-start
+                                }
+
+                                .a-c-cont.a-c-cont-d7be7a3 {
+                                  width: 50px
+                                }
+
+                                @media screen and (max-width:480px) {
+                                  .a-c-cont.a-c-cont-d7be7a3 {
+                                    width: 50px
+                                  }
+                                }
+
+                                .atomicat-image-d7be7a3 {
+                                  text-align: left
+                                }
+
+                                .a-c-cont-d7be7a3>.a-e-cont {
+                                  border-top-left-radius: 100px;
+                                  border-top-right-radius: 100px;
+                                  border-bottom-right-radius: 100px;
+                                  border-bottom-left-radius: 100px
+                                }
+                              </style>
+                              <div
+                                class="atomicat-image-d7be7a3 atomicat-element-container-d7be7a3 a-r atomicat-image a-e-cont">
+                                <!-- image - xd0527 --><img loading="eager" fetchpriority="auto" decoding="async"
+                                  width="160" height="160" src="./index_files/bpJYJg0609344.jpeg" alt=""
+                                  srcset="https://media.atomicatpages.net/u/pvssKzor8IOuLMwbKVKxTjD7dNI3/Pictures/bpJYJg0609344.jpeg?quality=81#115559 160w,"
+                                  sizes="(max-width: 160px) 100vw, 160px"></div>
+                            </div>
+                            <div class="a-s-d-4pb58e atomicat-container-c87cc12 a-u-1 a-b-o-cont" data-hex="pvssKzor8I">
+                              <style>
+                                .atomicat-container-c87cc12>.a-o-cont>.a-cont {
+                                  align-items: flex-start;
+                                  column-gap: 10px;
+                                  flex-direction: column;
+                                  justify-content: center;
+                                  row-gap: 10px
+                                }
+
+                                .a-b-cont .atomicat-container-c87cc12.a-b-o-cont {
+                                  background-size: cover;
+                                  background-repeat: no-repeat;
+                                  background-position: center;
+                                  width: 127px
+                                }
+
+                                @media screen and (max-width:480px) {
+                                  .a-b-cont .atomicat-container-c87cc12.a-b-o-cont {
+                                    width: auto;
+                                    flex: 1;
+                                    margin-right: 10px;
+                                  }
+                                  .atomicat-container-c87cc12>.a-o-cont>.a-cont {
+                                    align-items: flex-start;
+                                    row-gap: 2px;
+                                    flex-direction: column;
+                                    justify-content: flex-start;
+                                  }
+                                }
+                              </style>
+                              <div class="a-o-cont a-s-d-jqlo07 a-cont-f-w">
+                                <div class="a-cont a-i-cont">
+                                  <div class="a-r a-c-cont a-c-cont-4a41e95">
+                                    <style>
+                                      .a-e-cont.atomicat-heading-title-4a41e95 p:hover {
+                                        -webkit-text-fill-color: unset
+                                      }
+
+                                      .a-e-cont.atomicat-heading-title-4a41e95 p {
+                                        color: #fff;
+                                        background-image: unset;
+                                        font-family: Roboto, sans-serif;
+                                        font-weight: 700
+                                      }
+                                    </style>
+                                    <div
+                                      class="atomicat-text atomicat-element-container-4a41e95 a-r a-e-cont atomicat-heading-title-4a41e95 atomicat-text-4a41e95">
+                                      <p>Mark Hyman, MD</p>
+                                    </div>
+                                  </div>
+                                  <div class="a-r a-c-cont a-c-cont-30d201a">
+                                    <style>
+                                      .a-e-cont.atomicat-heading-title-30d201a p:hover {
+                                        -webkit-text-fill-color: unset
+                                      }
+
+                                      .a-e-cont.atomicat-heading-title-30d201a p {
+                                        color: rgba(255, 255, 255, .7);
+                                        background-image: unset;
+                                        font-family: Roboto, sans-serif;
+                                        font-weight: 400;
+                                        font-size: 14px
+                                      }
+
+                                      .a-c-cont-30d201a>.a-e-cont {
+                                        margin-top: -6px
+                                      }
+                                    </style>
+                                    <div
+                                      class="atomicat-text-30d201a atomicat-heading-title-30d201a a-r atomicat-element-container-30d201a atomicat-text a-e-cont">
+                                      <!-- text - d66tdx -->
+                                      <p>1,45 mi de inscritos</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="a-c-cont a-r a-c-cont-40817e7">
+                              <style>
+                                .a-btn-40817e7.a-e-cont .a-btn:hover {
+                                  background: #737373
+                                }
+
+                                .a-btn-40817e7.a-e-cont .a-btn {
+                                  font-family: Roboto, sans-serif;
+                                  background: #ff0005;
+                                  width: 125px;
+                                  font-weight: 700;
+                                  border-top-left-radius: 100px;
+                                  border-top-right-radius: 100px;
+                                  border-bottom-right-radius: 100px;
+                                  border-bottom-left-radius: 100px
+                                }
+
+                                @media screen and (max-width:480px) {
+                                  .a-btn-40817e7.a-e-cont .a-btn {
+                                    width: 85px;
+                                    font-size: 12px;
+                                    padding: 8px 12px;
+                                    height: 36px;
+                                  }
+                                  .a-c-cont-40817e7 {
+                                    align-self: center;
+                                    flex-shrink: 0;
+                                  }
+                                }
+                              </style>
+                              <div
+                                class="a-e-cont a-btn-40817e7 a-r a-btn atomicat-button a-f-c atomicat-element-container-40817e7">
+                                <a href="javascript:void(0)" class="a-btn a-b-b"><span>Subscribe</span></a></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="a-b-o-cont atomicat-container-baa9a45 a-s-d-lsq2to"><!-- container - ud05gq -->
+                        <style>
+                          .atomicat-container-baa9a45>.a-o-cont>.a-cont {
+                            column-gap: 20px;
+                            flex-direction: row;
+                            justify-content: flex-end;
+                            row-gap: 20px
+                          }
+
+                          @media screen and (max-width:480px) {
+                            .atomicat-container-baa9a45>.a-o-cont>.a-cont {
+                              column-gap: 6px;
+                              justify-content: center;
+                              row-gap: 6px;
+                              flex-wrap: nowrap;
+                              padding: 15px;
+                              align-items: center;
+                              display: flex;
+                              flex-direction: row;
+                            }
+                          }
+
+                          .a-b-cont .atomicat-container-baa9a45.a-b-o-cont {
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            width: 69%
+                          }
+
+                          @media screen and (max-width:480px) {
+                            .a-b-cont .atomicat-container-baa9a45.a-b-o-cont {
+                              width: 100%
+                            }
+                          }
+                        </style>
+                        <div class="a-o-cont a-cont-f-w">
+                          <div class="a-cont a-s-d-um9kq3 a-i-cont">
+                            <div class="a-c-cont a-c-cont-c90c504 a-r">
+                              <style>
+                                .a-btn-c90c504.a-e-cont .a-btn:hover {
+                                  background: #fff;
+                                  color: #000
+                                }
+
+                                .a-btn-c90c504.a-e-cont .a-btn {
+                                  font-family: Roboto, sans-serif;
+                                  background: #353535;
+                                  width: 125px;
+                                  font-weight: 700;
+                                  border-top-left-radius: 100px;
+                                  border-top-right-radius: 100px;
+                                  border-bottom-right-radius: 100px;
+                                  border-bottom-left-radius: 100px
+                                }
+
+                                @media screen and (max-width:480px) {
+                                  .a-btn-c90c504.a-e-cont .a-btn {
+                                    width: 60px;
+                                    font-size: 11px;
+                                    padding: 8px 8px;
+                                    height: 36px;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                  }
+                                }
+                              </style>
+                              <div
+                                class="atomicat-element-container-c90c504 a-r a-f-c a-e-cont a-s-d-jr5kiz a-btn-c90c504 atomicat-button a-btn">
+                                <a href="javascript:void(0)" class="a-btn a-b-b"><span>Save</span></a></div>
+                            </div>
+                            <div class="a-c-cont a-r a-c-cont-5907328">
+                              <style>
+                                .a-btn-5907328.a-e-cont .a-btn:hover {
+                                  background: #fff;
+                                  color: #000
+                                }
+
+                                .a-btn-5907328.a-e-cont .a-btn {
+                                  font-family: Roboto, sans-serif;
+                                  background: #353535;
+                                  width: 125px;
+                                  font-weight: 700;
+                                  border-top-left-radius: 100px;
+                                  border-top-right-radius: 100px;
+                                  border-bottom-right-radius: 100px;
+                                  border-bottom-left-radius: 100px
+                                }
+
+                                @media screen and (max-width:480px) {
+                                  .a-btn-5907328.a-e-cont .a-btn {
+                                    width: 65px;
+                                    font-size: 10px;
+                                    padding: 8px 6px;
+                                    height: 36px;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                  }
+                                }
+                              </style>
+                              <div
+                                class="atomicat-button a-f-c a-e-cont atomicat-element-container-5907328 a-r a-s-d-o90gdb a-btn-5907328 a-btn">
+                                <a href="javascript:void(0)" class="a-btn a-b-b"><span>To share</span></a></div>
+                            </div>
+                            <div class="a-s-d-iygxbz a-c-cont-3428154 a-c-cont a-r">
+                              <style>
+                                .a-btn-3428154.a-e-cont .a-btn:hover {
+                                  background: #fff;
+                                  color: #000
+                                }
+
+                                .a-btn-3428154.a-e-cont .a-btn {
+                                  font-family: Roboto, sans-serif;
+                                  background: #353535;
+                                  width: 125px;
+                                  font-weight: 700;
+                                  border-top-left-radius: 100px;
+                                  border-top-right-radius: 100px;
+                                  border-bottom-right-radius: 100px;
+                                  border-bottom-left-radius: 100px
+                                }
+
+                                @media screen and (max-width:480px) {
+                                  .a-btn-3428154.a-e-cont .a-btn {
+                                    width: 60px;
+                                    font-size: 11px;
+                                    padding: 8px 6px;
+                                    height: 36px;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                  }
+                                }
+                              </style>
+                              <div
+                                class="atomicat-element-container-3428154 atomicat-button a-btn a-s-d-g9d6va a-e-cont a-r a-f-c a-btn-3428154">
+                                <!-- button - rk8cmq --><a href="javascript:void(0)" class="a-btn a-b-b"><svg
+                                    aria-hidden="true" focusable="false" data-prefix="far" data-icon="thumbs-up"
+                                    class="fa-thumbs-up svg-inline--fa" role="img" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 512 512">
+                                    <path fill="currentColor"
+                                      d="M323.8 34.8c-38.2-10.9-78.1 11.2-89 49.4l-5.7 20c-3.7 13-10.4 25-19.5 35l-51.3 56.4c-8.9 9.8-8.2 25 1.6 33.9s25 8.2 33.9-1.6l51.3-56.4c14.1-15.5 24.4-34 30.1-54.1l5.7-20c3.6-12.7 16.9-20.1 29.7-16.5s20.1 16.9 16.5 29.7l-5.7 20c-5.7 19.9-14.7 38.7-26.6 55.5c-5.2 7.3-5.8 16.9-1.7 24.9s12.3 13 21.3 13L448 224c8.8 0 16 7.2 16 16c0 6.8-4.3 12.7-10.4 15c-7.4 2.8-13 9-14.9 16.7s.1 15.8 5.3 21.7c2.5 2.8 4 6.5 4 10.6c0 7.8-5.6 14.3-13 15.7c-8.2 1.6-15.1 7.3-18 15.2s-1.6 16.7 3.6 23.3c2.1 2.7 3.4 6.1 3.4 9.9c0 6.7-4.2 12.6-10.2 14.9c-11.5 4.5-17.7 16.9-14.4 28.8c.4 1.3 .6 2.8 .6 4.3c0 8.8-7.2 16-16 16l-97.5 0c-12.6 0-25-3.7-35.5-10.7l-61.7-41.1c-11-7.4-25.9-4.4-33.3 6.7s-4.4 25.9 6.7 33.3l61.7 41.1c18.4 12.3 40 18.8 62.1 18.8l97.5 0c34.7 0 62.9-27.6 64-62c14.6-11.7 24-29.7 24-50c0-4.5-.5-8.8-1.3-13c15.4-11.7 25.3-30.2 25.3-51c0-6.5-1-12.8-2.8-18.7C504.8 273.7 512 257.7 512 240c0-35.3-28.6-64-64-64l-92.3 0c4.7-10.4 8.7-21.2 11.8-32.2l5.7-20c10.9-38.2-11.2-78.1-49.4-89zM32 192c-17.7 0-32 14.3-32 32L0 448c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32l0-224c0-17.7-14.3-32-32-32l-64 0z">
+                                    </path>
+                                  </svg><span>1.783</span></a></div>
+                            </div>
+                            <div class="a-r a-c-cont a-c-cont-4514cd3">
+                              <style>
+                                .a-btn-4514cd3.a-e-cont .a-btn:hover {
+                                  background: #fff;
+                                  color: #000
+                                }
+
+                                .a-btn-4514cd3.a-e-cont .a-btn {
+                                  font-family: Roboto, sans-serif;
+                                  background: #353535;
+                                  width: 75px;
+                                  font-weight: 700;
+                                  border-top-left-radius: 100px;
+                                  border-top-right-radius: 100px;
+                                  border-bottom-right-radius: 100px;
+                                  border-bottom-left-radius: 100px
+                                }
+
+                                @media screen and (max-width:480px) {
+                                  .a-btn-4514cd3.a-e-cont .a-btn {
+                                    width: 40px;
+                                    padding: 8px 6px;
+                                    height: 36px;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                  }
+                                }
+                              </style>
+                              <div
+                                class="atomicat-element-container-4514cd3 a-r a-btn-4514cd3 a-f-c a-btn a-e-cont atomicat-button a-s-d-kworop">
+                                <a href="javascript:void(0)" class="a-btn a-b-b"><svg aria-hidden="true"
+                                    focusable="false" data-prefix="far" data-icon="thumbs-down"
+                                    class="fa-thumbs-down svg-inline--fa" role="img" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 512 512">
+                                    <path fill="currentColor"
+                                      d="M323.8 477.2c-38.2 10.9-78.1-11.2-89-49.4l-5.7-20c-3.7-13-10.4-25-19.5-35l-51.3-56.4c-8.9-9.8-8.2-25 1.6-33.9s25-8.2 33.9 1.6l51.3 56.4c14.1 15.5 24.4 34 30.1 54.1l5.7 20c3.6 12.7 16.9 20.1 29.7 16.5s20.1-16.9 16.5-29.7l-5.7-20c-5.7-19.9-14.7-38.7-26.6-55.5c-5.2-7.3-5.8-16.9-1.7-24.9s12.3-13 21.3-13L448 288c8.8 0 16-7.2 16-16c0-6.8-4.3-12.7-10.4-15c-7.4-2.8-13-9-14.9-16.7s.1-15.8 5.3-21.7c2.5-2.8 4-6.5 4-10.6c0-7.8-5.6-14.3-13-15.7c-8.2-1.6-15.1-7.3-18-15.2s-1.6-16.7 3.6-23.3c2.1-2.7 3.4-6.1 3.4-9.9c0-6.7-4.2-12.6-10.2-14.9c-11.5-4.5-17.7-16.9-14.4-28.8c.4-1.3 .6-2.8 .6-4.3c0-8.8-7.2-16-16-16l-97.5 0c-12.6 0-25 3.7-35.5 10.7l-61.7 41.1c-11 7.4-25.9 4.4-33.3-6.7s-4.4-25.9 6.7-33.3l61.7-41.1c18.4-12.3 40-18.8 62.1-18.8L384 32c34.7 0 62.9 27.6 64 62c14.6 11.7 24 29.7 24 50c0 4.5-.5 8.8-1.3 13c15.4 11.7 25.3 30.2 25.3 51c0 6.5-1 12.8-2.8 18.7C504.8 238.3 512 254.3 512 272c0 35.3-28.6 64-64 64l-92.3 0c4.7 10.4 8.7 21.2 11.8 32.2l5.7 20c10.9 38.2-11.2 78.1-49.4 89zM32 384c-17.7 0-32-14.3-32-32L0 128c0-17.7 14.3-32 32-32l64 0c17.7 0 32 14.3 32 32l0 224c0 17.7-14.3 32-32 32l-64 0z">
+                                    </path>
+                                  </svg><span></span></a></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="atomicat-hidden-mobile atomicat-hidden-tablet a-r a-s-d-8zvsmu a-c-cont a-c-cont-a2cf38b">
+                  <style></style>
+                  <div class="atomicat-element-container-a2cf38b a-html a-e-cont a-html-a2cf38b a-r atomicat-html">
+                    <!-- html - c8mkxg -->
+                    <div class="a-i-e-cont">
+                      <div class="pcl-viewers">
+                        <div class="usuarios">
+                          <div id="numberViewer">45</div>
+                        </div>
+                        <div class="texto">K people watching now</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="atomicat-delay atomicat-container-da1f079 a-b-o-cont"><!-- container - s5ntdc -->
+      <style>
+        .atomicat-container-da1f079>.a-o-cont {
+          padding-top: 10px;
+          padding-right: 10px;
+          padding-bottom: 10px;
+          padding-left: 10px
+        }
+
+        @media screen and (max-width:480px) {
+          .atomicat-container-da1f079>.a-o-cont {
+            padding-top: 10px
+          }
+        }
+
+        .atomicat-container-da1f079>.a-o-cont>.a-cont {
+          flex-direction: column
+        }
+
+        @media screen and (max-width:480px) {
+          .atomicat-container-da1f079>.a-o-cont>.a-cont {
+            max-width: 1600px
+          }
+        }
+
+        .a-b-cont .atomicat-container-da1f079.a-b-o-cont {
+          background: #bf0707;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center
+        }
+
+        @media screen and (max-width:480px) {
+          .a-b-cont .atomicat-container-da1f079.a-b-o-cont {
+            margin-top: -200px
+          }
+        }
+      </style>
+      <div class="a-o-cont a-cont-b">
+        <div class="a-i-cont a-cont a-s-d-1e2xnq">
+          <div class="a-c-cont a-s-d-jl2qag a-r a-c-cont-0c6b0ce">
+            <style>
+              .a-e-cont.atomicat-heading-title-0c6b0ce h1:hover {
+                -webkit-text-fill-color: unset
+              }
+
+              .a-e-cont.atomicat-heading-title-0c6b0ce h1 {
+                font-size: 37px;
+                color: #f9f6f6;
+                font-family: Montserrat, sans-serif;
+                background-image: unset;
+                text-align: center
+              }
+
+              @media screen and (max-width:480px) {
+                .a-e-cont.atomicat-heading-title-0c6b0ce h1 {
+                  font-size: 25px
+                }
+              }
+
+              .a-c-cont-0c6b0ce>.a-e-cont {
+                padding-bottom: 10px;
+                padding-left: 10px;
+                padding-top: 10px;
+                padding-right: 10px
+              }
+            </style>
+            <div
+              class="atomicat-heading-title atomicat-text-0c6b0ce atomicat-element-container-0c6b0ce atomicat-heading-title-0c6b0ce a-r a-e-cont">
+              <!-- text - lmedtb -->
+              <h1>Claim the Biggest Discount for Burn Peak</h1>
+            </div>
+          </div>
+          <div class="a-r a-c-cont-dd57016 a-s-d-95x210 a-c-cont">
+            <style>
+              .a-icon-dd57016 {
+                text-align: center;
+                color: #f9f6f6
+              }
+
+              .a-icon-dd57016 .a-icon-wrap {
+                font-size: 41px;
+                text-align: center;
+                color: #f9f6f6
+              }
+
+              @media screen and (max-width:480px) {
+                .a-icon-dd57016 .a-icon-wrap {
+                  font-size: 28px
+                }
+              }
+
+              .a-icon-dd57016 svg {
+                height: 41px
+              }
+
+              @media screen and (max-width:480px) {
+                .a-icon-dd57016 svg {
+                  height: 28px
+                }
+              }
+
+              .a-c-cont-dd57016>.a-e-cont {
+                padding-top: 5px;
+                padding-bottom: 10px;
+                padding-right: 10px;
+                padding-left: 10px
+              }
+            </style>
+            <div class="atomicat-icon a-icon-dd57016 a-icon atomicat-element-container-dd57016 a-r a-e-cont">
+              <div class="a-icon-wrap"><svg aria-hidden="true" focusable="false" data-prefix="fas"
+                  data-icon="circle-down" class="fa-circle-down a-i-e-cont svg-inline--fa" role="img"
+                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <path fill="currentColor"
+                    d="M256 0a256 256 0 1 0 0 512A256 256 0 1 0 256 0zM244.7 395.3l-112-112c-4.6-4.6-5.9-11.5-3.5-17.4s8.3-9.9 14.8-9.9l64 0 0-96c0-17.7 14.3-32 32-32l32 0c17.7 0 32 14.3 32 32l0 96 64 0c6.5 0 12.3 3.9 14.8 9.9s1.1 12.9-3.5 17.4l-112 112c-6.2 6.2-16.4 6.2-22.6 0z">
+                  </path>
+                </svg></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="atomicat-container-43b66e1 a-b-o-cont atomicat-delay">
+      <style>
+        .atomicat-container-43b66e1>.a-o-cont {
+          padding-bottom: 1%
+        }
+
+        .atomicat-container-43b66e1>.a-o-cont>.a-cont {
+          flex-direction: column
+        }
+
+        .a-b-cont .atomicat-container-43b66e1.a-b-o-cont {
+          background: #fff;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          width: 100%
+        }
+      </style>
+      <div class="a-cont-b a-o-cont">
+        <div class="a-cont a-i-cont">
+          <div class="atomicat-delay atomicat-container-f0bf238 a-b-o-cont a-s-d-7qogop">
+            <style>
+              @media screen and (max-width:480px) {
+                .atomicat-container-f0bf238>.a-o-cont {
+                  padding-right: 0;
+                  padding-left: 0
+                }
+              }
+
+              .atomicat-container-f0bf238>.a-o-cont>.a-cont {
+                flex-direction: column
+              }
+
+              .a-b-cont .atomicat-container-f0bf238.a-b-o-cont {
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                width: 100%
+              }
+
+              @media screen and (max-width:480px) {
+                .a-b-cont .atomicat-container-f0bf238.a-b-o-cont {
+                  width: 100%
+                }
+              }
+            </style>
+            <div class="a-cont-b a-o-cont">
+              <div class="a-cont a-s-d-lfx45i a-i-cont">
+                <div class="a-c-cont-c6d7afb a-r a-c-cont">
+                  <style></style>
+                  <div class="a-r a-html atomicat-element-container-c6d7afb a-e-cont atomicat-html a-html-c6d7afb">
+                    <!-- html - igzm75 -->
+                    <div class="a-i-e-cont"><!--<base target="_top">-->
+                      <base href="." target="_top">
+                      <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"><!-- Toggle -->
+                      <!-- Toggle --><!-- GoogleFonts -->
+                      <link rel="preconnect" href="https://fonts.googleapis.com/">
+                      <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+                      <link href="./index_files/css2" rel="stylesheet"><!-- END GoogleFonts --><!-- Bootstrap -->
+                      <link rel="stylesheet" type="text/css" href="./index_files/bootstrap.min.css">
+                      <link rel="stylesheet" href="./index_files/bootstrap-icons.min.css">
+                      <script type="text/javascript" src="./index_files/bootstrap.bundle.min.js" defer="defer"></script>
+                      <!-- END Bootstrap --><!-- Main Styles -->
+                      <link rel="stylesheet" type="text/css" href="./index_files/main.css">
+                      <!-- END Main Styles --><!-- Main Scripts -->
+                      <section class="products py-4">
+                        <div class="container">
+                          <div class="row align-items-center"><!-- 6 Bottles -->
+                            <div class="col-12 mb-3 order-md-2 col-md-4"><a href="https://hug.clickhypex.site/click/3"
+                                title="6 Bottles" class="item promo buylink kit3">
+                                <div class="wrapper">
+                                  <div class="item-header">BEST VALUE!</div>
+                                  <div class="item-img">
+                                    <div class="supply"><b>6 BOTTLES</b>180 DAY SUPPLY</div><img
+                                      src="./index_files/img-6-bottles.webp" alt="6 Bottles">
+                                  </div>
+                                  <div class="item-info">
+                                    <div class="price"><b><sup>$</sup>49</b><span>PER<br>BOTTLE</span></div>
+                                    <div class="savings">
+                                      <div><span>YOU SAVE $780!</span></div>
+                                      <div><span>BIGGEST DISCOUNT</span></div>
+                                      <div><span>60 DAYS GUARANTEE</span></div>
+                                    </div>
+                                  </div>
+                                  <div class="item-buy">
+                                    <div class="button">
+                                      <div><span>BUY NOW</span></div>
+                                    </div><img src="./index_files/cards-dark.webp" alt="Cards" class="card-flags">
+                                  </div>
+                                  <div class="item-totals">
+                                    <div class="totals">Total: <s>$1074</s> <b>$294</b></div>
+                                    <div class="shipping">+&nbsp;<span>FREE</span> SHIPPING</div>
+                                  </div>
+                                </div>
+                              </a></div><!-- 6 Bottles --><!-- 3 Bottles -->
+                            <div class="mb-3 order-md-3 col-md-4 col-12"><a href="https://hug.clickhypex.site/click/2"
+                                title="3 Bottles" class="kit2 buylink item">
+                                <div class="wrapper">
+                                  <div class="item-header">Most Popular</div>
+                                  <div class="item-img">
+                                    <div class="supply"><b>3 BOTTLES</b>90 DAY SUPPLY</div><img
+                                      src="./index_files/img-3-bottles.webp" alt="3 Bottles">
+                                  </div>
+                                  <div class="item-info">
+                                    <div class="price"><b><sup>$</sup>69</b><span>PER<br>BOTTLE</span></div>
+                                    <div class="savings">
+                                      <div><span>YOU SAVE $330!</span></div>
+                                      <div><span>BIGGEST DISCOUNT</span></div>
+                                      <div><span>60 DAYS GUARANTEE</span></div>
+                                    </div>
+                                  </div>
+                                  <div class="item-buy">
+                                    <div class="button">
+                                      <div><span>BUY NOW</span></div>
+                                    </div><img src="./index_files/cards.webp" alt="Cards" class="card-flags">
+                                  </div>
+                                  <div class="item-totals">
+                                    <div class="totals">Total: <s>$537</s> <b>$207</b></div>
+                                    <div class="shipping">+&nbsp;<span>FREE</span> SHIPPING</div>
+                                  </div>
+                                </div>
+                              </a></div><!-- 3 Bottles --><!-- 2 Bottles -->
+                            <div class="mb-3 order-md-1 col-12 col-md-4"><a href="https://hug.clickhypex.site/click/1"
+                                title="2 Bottles" class="buylink kit1 item">
+                                <div class="wrapper">
+                                  <div class="item-header">Basic</div>
+                                  <div class="item-img">
+                                    <div class="supply"><b>2 BOTTLES</b>60 DAY SUPPLY</div><img
+                                      src="./index_files/img-2-bottles.webp" alt="2 Bottles">
+                                  </div>
+                                  <div class="item-info">
+                                    <div class="price"><b><sup>$</sup>79</b><span>PER<br>BOTTLE</span></div>
+                                    <div class="savings">
+                                      <div><span>YOU SAVE $200!</span></div>
+                                      <div><span>BIGGEST DISCOUNT</span></div>
+                                      <div><span>60 DAYS GUARANTEE</span></div>
+                                    </div>
+                                  </div>
+                                  <div class="item-buy">
+                                    <div class="button">
+                                      <div><span>BUY NOW</span></div>
+                                    </div><img src="./index_files/cards.webp" alt="Cards" class="card-flags">
+                                  </div>
+                                  <div class="item-totals">
+                                    <div class="totals">Total: <s>$358</s> <b>$158</b></div>
+                                    <div class="shipping">+9.99 SHIPPING</div>
+                                  </div>
+                                </div>
+                              </a></div><!-- 2 Bottles -->
+                          </div>
+                        </div>
+                      </section><!-- CTA Lander -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="a-s-d-7kfg50 atomicat-container-d41c0e0 a-b-o-cont atomicat-delay">
+      <style>
+        .atomicat-container-d41c0e0>.a-o-cont>.a-cont {
+          flex-direction: row
+        }
+
+        .a-b-cont .atomicat-container-d41c0e0.a-b-o-cont {
+          background: #dcdbdb;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center
+        }
+      </style>
+      <div class="a-cont-b a-o-cont a-s-d-0vn002">
+        <div class="a-cont a-i-cont a-s-d-5sixej">
+          <div class="a-s-d-gbplv0 a-b-o-cont atomicat-container-2d86cc9">
+            <style>
+              .atomicat-container-2d86cc9>.a-o-cont>.a-cont {
+                flex-direction: column
+              }
+
+              .a-b-cont .atomicat-container-2d86cc9.a-b-o-cont {
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                width: 100%
+              }
+
+              @media screen and (max-width:480px) {
+                .a-b-cont .atomicat-container-2d86cc9.a-b-o-cont {
+                  width: 100%
+                }
+              }
+            </style>
+            <div class="a-s-d-qoxow3 a-cont-f-w a-o-cont">
+              <div class="a-i-cont a-cont">
+                <div class="a-r a-c-cont-c3795b1 a-c-cont a-s-d-t20ho4">
+                  <style>
+                    .a-c-cont-c3795b1>.a-e-cont.a-ft-c3795b1 footer {
+                      color: #949498;
+                      font-size: 11px
+                    }
+                  </style>
+                  <div
+                    class="a-r atomicat-footer a-ft-c3795b1 atomicat-element-container-c3795b1 a-ft a-e-cont a-s-d-3smil7">
+                    <footer class="a-i-e-cont a-g-s-t">
+                      <p class="a-ft-i">Copyright <span class="atomicat-ano">2025</span> - ForceNutra ®</p>
+                      <p class="a-ft-i">All rights reserved</p>
+                      <div class="a-ft-i"><a href="https://clickhypex.site/bp03-vsl01-ml01-l01-utm/terms">Terms of
+                          use</a><span> · </span><a
+                          href="https://clickhypex.site/bp03-vsl01-ml01-l01-utm/privacy">Privacy</a></div>
+                      <p class="a-ft-i">All information and results presented on this website are purely for
+                        informational purposes, not intended to diagnose, treat, cure, or prevent any disease. Results
+                        may vary from person to person, these testimonials may be real or fictitious. This information
+                        is not medical advice and should not be considered as such. Consult your doctor before changing
+                        your regular diet.</p>
+                    </footer>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
